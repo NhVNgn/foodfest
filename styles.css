@@ -1,0 +1,17 @@
+
+#countries li {
+  cursor: pointer;
+}
+
+#food-truck-container {
+  position: relative;
+  width: 100%;
+  height: 50px;
+}
+
+#food-truck {
+  position: absolute;
+  left: -50%; /* place the left edge of the food truck (-50% x width of food-truck-container) away from its orginal position */
+  width: 50vw;
+  height: auto;
+}
