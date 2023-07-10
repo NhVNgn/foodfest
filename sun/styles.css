@@ -1,0 +1,31 @@
+:root {
+  --v1: #be91c6;
+  --v2: #8a65cc;
+  --v3: #5e30d9;
+  --transparentv3: #5e30d900;
+  --v4: #3b1895;
+  --s1: #fea798;
+  --s2: #ff846e;
+  --cloud: #fea798;
+}
+
+.landscape {
+  height: 50vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-image: linear-gradient(var(--v1), var(--s1), var(--v1));
+  position: relative;
+  z-index: 1;
+  overflow: hidden;
+}
+
+.sun {
+  background: white;
+  border-radius: 50%;
+  width: 20vmin;
+  height: 20vmin;
+  box-shadow: 0 0 10px white;
+}
+
+
